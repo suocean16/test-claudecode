@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:www.bbc.com)",
+      "WebFetch(domain:hk.news.yahoo.com)",
+      "WebFetch(domain:www.shanxi.gov.cn)",
+      "WebFetch(domain:news.baidu.com)",
+      "WebFetch(domain:example.com)",
+      "WebFetch(domain:www.baidu.com)",
+      "WebFetch(domain:www.sina.com.cn)",
+      "WebFetch(domain:news.sina.com.cn)",
+      "mcp__duckduckgo-search__web-search",
+      "mcp__duckduckgo-search__felo-search",
+      "Read(//c/Users/CMCC/.claude/**)",
+      "WebFetch(domain:www.google.com)",
+      "mcp__duckduckgo-search__url-metadata",
+      "WebFetch(domain:gitee.com)",
+      "mcp__duckduckgo-search__fetch-url",
+      "Bash(curl:*)",
+      "Bash(git config:*)",
+      "Bash(gh auth:*)",
+      "Bash(gh repo view:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(set:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(GIT_CURL_VERBOSE=1 git push origin main)",
+      "Bash(git clone:*)",
+      "Bash(dir:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
